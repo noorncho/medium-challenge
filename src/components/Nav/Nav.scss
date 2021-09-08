@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-title{
+    display: flex;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    a{
+        text-decoration: none;
+    }
+}
