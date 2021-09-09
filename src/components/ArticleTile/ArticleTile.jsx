@@ -22,7 +22,7 @@ const ArticleTile = (props) => {
                 <div className={articleTileStyle}>
                     <img key={article.idArticle} src={article.strThumbnail} alt="" />
                     <div className="article-summary">
-                        <p className="article-title">{article.strArticleTile}</p>
+                        <p className="article-title"><b>{article.strArticleTitle}</b></p>
                         <p className="article-description">{article.strDescription}</p>
                     </div>
                     <div className="article-info">
