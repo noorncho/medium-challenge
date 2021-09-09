@@ -7,18 +7,21 @@ import "./App.scss";
 
 import Nav from './components/Nav/Nav';
 import ArticleTile from './components/ArticleTile/ArticleTile';
+import SideBar from './components/SideBar/SideBar';
 
 import articles from "./data/articles.js";
 
 const App = () => {
   const featuredArticle = articles.filter(article => article.isFeatured);
   const latestArticles = articles.filter(article => article.isLatest);
-  console.log(latestArticles);
-  console.log(featuredArticle);
+  //const popularArticles = articles.filter(article => article.isPopular);
 
   return (
       <>
         <Nav />
+        <aside>          
+          <SideBar />
+        </aside>
         <section className="featured-article">
           <ArticleTile articlesArr={featuredArticle}/>
         </section>
