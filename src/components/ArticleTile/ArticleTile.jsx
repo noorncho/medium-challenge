@@ -14,7 +14,7 @@ const ArticleTile = (props) => {
             articleTileStyle += " latest";
         }
         if(article.isPopular){
-            articleTileStyle += " polular";
+            articleTileStyle += " popular";
         }
 
         return(            
@@ -31,8 +31,7 @@ const ArticleTile = (props) => {
                     </div>
                 </div>
             </>
-        )
-        
+        )        
     });
     
 
