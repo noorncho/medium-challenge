@@ -1,6 +1,6 @@
 ### Medium Challenge
 
-This is a challenge to reconstruct the medium | programming website to practice using components, props and arrays in react.
+This is a challenge to make a visual reconstruction of the medium | programming website to practice using components, props and arrays in react.
 
 <!--
 # Getting Started with Create React App
