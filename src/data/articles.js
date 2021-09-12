@@ -118,7 +118,8 @@ const articles = [
         strDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis justo vel felis porta, id.",
         isFeatured: false,
         isLatest: false,
-        isPopular: true
+        isPopular: false,
+        featuredAuthor: true
     },{
         idArticle: "11",
         strAuthor: "Little Start",
@@ -129,7 +130,8 @@ const articles = [
         strDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis justo vel felis porta, id.",
         isFeatured: false,
         isLatest: false,
-        isPopular: true
+        isPopular: false,
+        featuredAuthor: true
     },{
         idArticle: "12",
         strAuthor: "Little Start",
@@ -140,7 +142,8 @@ const articles = [
         strDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis justo vel felis porta, id.",
         isFeatured: false,
         isLatest: false,
-        isPopular: true
+        isPopular: false,
+        featuredAuthor: true
     },{
         idArticle: "13",
         strAuthor: "Little Start",
@@ -151,8 +154,20 @@ const articles = [
         strDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis justo vel felis porta, id.",
         isFeatured: false,
         isLatest: false,
-        isPopular: true
-    }
+        isPopular: false,
+        featuredAuthor: true
+    },{
+        idArticle: "14",
+        strAuthor: "Lorem ipsumfdh.",
+        strArticleTitle: "Lorem ipsum dolor sit amet.",
+        strPublishDate: "3 Sept",
+        strReadTime: "3",
+        strThumbnail: "https://placebear.com/200/200.jpg",
+        strDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis justo vel felis porta, id.",
+        isFeatured: false,
+        isLatest: true,
+        isPopular: false
+    },
 ];
 
 

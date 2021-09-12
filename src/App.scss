@@ -6,11 +6,15 @@ aside{
   width: 30%;
 }
 
-.featured-article{
+.featured-article, .latest-articles{
   width: 65%;
 }
 
 .latest-articles{
   gap: 10px;
-  width: 65%;
+  
+}
+
+.featured-writer{
+  background-color: rgba(119, 136, 153, 0.432);
 }

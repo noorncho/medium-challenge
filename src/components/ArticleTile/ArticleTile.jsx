@@ -16,6 +16,9 @@ const ArticleTile = (props) => {
         if(article.isPopular){
             articleTileStyle += " popular";
         }
+        if(article.featuredAuthor){
+            articleTileStyle = "article-tile featured-writer";
+        }
 
         return(            
             <>

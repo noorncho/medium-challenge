@@ -58,3 +58,9 @@
         grid-column: 1 / 2;
     }
 }
+
+.featured-writer{
+    .article-description, .article-info{
+        display: none;
+    }
+}

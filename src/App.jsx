@@ -14,7 +14,8 @@ import articles from "./data/articles.js";
 
 const App = () => {
   const featuredArticle = articles.filter(article => article.isFeatured);
-  const latestArticles = articles.filter(article => article.isLatest);
+  const latestArticlesFirst = articles.filter(article => article.isLatest).slice(0, 3);
+  const latestArticlesSecond = articles.filter(article => article.isLatest).slice(3, -1);
 
   return (
       <>
@@ -26,10 +27,11 @@ const App = () => {
           <ArticleTile articlesArr={featuredArticle}/>
         </section>
         <section className="latest-articles">
-          <ArticleTile articlesArr={latestArticles}/>
-        </section>
-        <section>
-          <FeaturedWriterTile featuredWriter="Little Star" />
+          <ArticleTile articlesArr={latestArticlesFirst}/>
+          <section className="featured-writer">
+            <FeaturedWriterTile featuredWriter="Little Star" />
+          </section>
+          <ArticleTile articlesArr={latestArticlesSecond} />
         </section>
       </>      
     )
