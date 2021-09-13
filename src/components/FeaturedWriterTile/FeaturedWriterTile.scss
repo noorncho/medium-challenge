@@ -1,0 +1,25 @@
+@use "../../assets/styles/variables" as *;
+
+.featured-tile{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    &__button{
+        color: white;
+        background-color:$color-secondary;
+        border: $color-secondary solid 1px;
+    }
+
+    &__pfp{
+        border-radius: 50%;
+        height: 85px;
+        width: 85px;
+    }
+}
+
+@media screen and (max-width: 727px){
+    .featured-writer{
+        grid-template-columns: auto;
+    }
+}
