@@ -1,4 +1,4 @@
-### Medium Challenge
+# Medium Challenge
 
 This is a challenge to make a visual reconstruction of the medium | programming website to practice using components, props and arrays in react.
 
