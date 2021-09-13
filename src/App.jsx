@@ -20,19 +20,25 @@ const App = () => {
   return (
       <>
         <Nav />
-        <aside>          
-          <SideBar />
-        </aside>
-        <section className="featured-article">
-          <ArticleTile articlesArr={featuredArticle}/>
-        </section>
-        <section className="latest-articles">
-          <ArticleTile articlesArr={latestArticlesFirst}/>
-          <section className="featured-writer">
-            <FeaturedWriterTile featuredWriter="Little Star" />
-          </section>
-          <ArticleTile articlesArr={latestArticlesSecond} />
-        </section>
+        <main>          
+          <div className="right-panel">
+            <SideBar />
+          </div>
+
+          <div className="left-panel">          
+            <section className="featured-article">
+              <ArticleTile articlesArr={featuredArticle}/>
+            </section>            
+            <section className="latest-articles">
+              <ArticleTile articlesArr={latestArticlesFirst}/>
+              <section className="featured-writer">
+                <h3>Featured Writer</h3>
+                <FeaturedWriterTile featuredWriter="Little Star" />
+              </section>
+              <ArticleTile articlesArr={latestArticlesSecond} />
+            </section>
+          </div>
+        </main>
       </>      
     )
 }
