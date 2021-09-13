@@ -1,3 +1,9 @@
 aside{
     float: right;
 }
+
+@media screen and (max-width: 727px){
+    .related-topics, .popular-articles{
+        display: none;
+    }
+}
